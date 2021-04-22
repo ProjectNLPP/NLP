@@ -1,0 +1,339 @@
+Year,Title-name,Paper-text
+1988,GUEST  EDITORIAL:GENETIC ALGORITHMS AND MACHINE LEARNING,"M
+achine learning and search
+techniques play an important
+role in solving real-world com-
+plex optimization problems in areas such
+as transportation, data mining, computer
+vision, computer security and software
+development, amongst others. Given the
+growing complexity of optimization
+problems, the design of effective algo-
+rithms to solve these problems has become
+more challenging and time consuming.
+The design process is itself an optimiza-
+tion problem. Hence, there is a demand,
+especially from industry and business, to
+automate the design process, thereby to
+remove the heavy reliance on human
+experts and to reduce the man hours
+involved in designing machine learning
+and search algorithms"
+2019,LOCAL RELATION NETWORKS FOR IMAGE RECOGNITION,"The convolution layer has been the dominant feature extractor in computer vision for years. However, the spatial
+aggregation in convolution is basically a pattern matching process that applies fixed filters which are inefficient
+at modeling visual elements with varying spatial distributions. This paper presents a new image feature extractor,
+called the local relation layer, that adaptively determines
+aggregation weights based on the compositional relationship of local pixel pairs. With this relational approach, it
+can composite visual elements into higher-level entities in
+a more efficient manner that benefits semantic inference. A
+network built with local relation layers, called the Local Relation Network (LR-Net), is found to provide greater modeling capacity than its counterpart built with regular convolution on large-scale recognition tasks such as ImageNet
+classification."
+2020,AN IMAGE ISWORTH16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE,"While the Transformer architecture has become the de-facto standard for natural
+language processing tasks, its applications to computer vision remain limited. In
+vision, attention is either applied in conjunction with convolutional networks, or
+used to replace certain components of convolutional networks while keeping their
+overall structure in place. We show that this reliance on CNNs is not necessary
+and a pure transformer applied directly to sequences of image patches can perform
+very well on image classification tasks. When pre-trained on large amounts of
+data and transferred to multiple mid-sized or small image recognition benchmarks
+(ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent
+results compared to state-of-the-art convolutional networks while requiring sub-
+stantially fewer computational resources to train. 1"
+2021,HANDLING BACKGROUND NOISE IN NEURAL SPEECH GENERATION,"Recent advances in neural-network based generative modeling of
+speech has shown great potential for speech coding. However,
+the performance of such models drops when the input is not clean
+speech, e.g., in the presence of background noise, preventing its
+use in practical applications. In this paper we examine the reason
+and discuss methods to overcome this issue. Placing a denoising
+preprocessing stage when extracting features and target clean speech
+during training is shown to be the best performing strategy."
+2021,GENERAL PERCEPTION WITH ITERATIVE ATTENTION,"Biological systems understand the world by si-
+multaneously processing high-dimensional inputs
+from modalities as diverse as vision, audition,
+touch, proprioception, etc. The perception mod-
+els used in deep learning on the other hand are
+designed for individual modalities, often relying
+on domain-specific assumptions such as the local
+grid structures exploited by virtually all existing
+vision models. These priors introduce helpful in-
+ductive biases, but also lock models to individual
+modalities. In this paper we introduce the Per-
+ceiver – a model that builds upon Transformers
+and hence makes few architectural assumptions
+about the relationship between its inputs, but that
+also scales to hundreds of thousands of inputs,
+like ConvNets. The model leverages an asymmet-
+ric attention mechanism to iteratively distill inputs
+into a tight latent bottleneck, allowing it to scale to
+handle very large inputs. We show that this archi-
+tecture performs competitively or beyond strong,
+specialized models on classification tasks across
+various modalities: images, point clouds, audio,
+video and video+audio. The Perceiver obtains per-
+formance comparable to ResNet-50 on ImageNet
+without convolutions and by directly attending to
+50,000 pixels. It also surpasses state-of-the-art
+results for all modalities in AudioSet."
+2021,SWIN TRANSFORMER:HIERARCHICAL VISION TRANSFORMER USING SHIFTED WINDOWS,"This paper presents a new vision Transformer, called
+Swin Transformer, that capably serves as a general-purpose
+backbone for computer vision. Challenges in adapting
+Transformer from language to vision arise from differences
+between the two domains, such as large variations in the
+scale of visual entities and the high resolution of pixels in
+images compared to words in text. To address these differ-
+ences, we propose a hierarchical Transformer whose rep-
+resentation is computed with shifted windows. The shifted
+windowing scheme brings greater efficiency by limiting self-
+attention computation to non-overlapping local windows
+while also allowing for cross-window connection. This hi-
+erarchical architecture has the flexibility to model at var-
+ious scales and has linear computational complexity with
+respect to image size. These qualities of Swin Transformer
+make it compatible with a broad range of vision tasks,
+including image classification (86.4 top-1 accuracy on
+ImageNet-1K) and dense prediction tasks such as object de-
+tection (58.7 box AP and 51.1 mask AP on COCO test-dev)
+and semantic segmentation (53.5 mIoU on ADE20K val).
+Its performance surpasses the previous state-of-the-art by a
+large margin of +2.7 box AP and +2.6 mask AP on COCO,
+and +3.2 mIoU on ADE20K, demonstrating the potential of
+Transformer-based models as vision backbones. The code
+and models will be made publicly available at https://
+github.com/microsoft/Swin-Transformer."
+2021,STYLE CLIP: TEXT-DRIVEN MANIPULATION OF STYLEGAN IMAGERY,"Inspired by the ability of StyleGAN to generate highly re-
+alistic images in a variety of domains, much recent work has
+focused on understanding how to use the latent spaces of
+StyleGAN to manipulate generated and real images. How-
+ever, discovering semantically meaningful latent manipula-
+tions typically involves painstaking human examination of
+the many degrees of freedom, or an annotated collection
+of images for each desired manipulation. In this work, we
+explore leveraging the power of recently introduced Con-
+trastive Language-Image Pre-training (CLIP) models in or-
+der to develop a text-based interface for StyleGAN image
+manipulation that does not require such manual effort. We
+first introduce an optimization scheme that utilizes a CLIP-
+based loss to modify an input latent vector in response to a
+user-provided text prompt. Next, we describe a latent map-
+per that infers a text-guided latent manipulation step for
+a given input image, allowing faster and more stable text-
+based manipulation. Finally, we present a method for map-
+ping a text prompts to input-agnostic directions in Style-
+GAN’s style space, enabling interactive text-driven image
+manipulation. Extensive results and comparisons demon-
+strate the effectiveness of our approaches."
+2021,MOBILE STYL EGAN:A LIGHT WEIGHT CONVOLUTIONAL NEURAL NETWORK FOR HIGH-FIDELITY IMAGE SYNTHESIS,"In recent years, the use of Generative Adversarial Net-
+works (GANs) has become very popular in generative image
+modeling. While style-based GAN architectures yield state-
+of-the-art results in high-fidelity image synthesis, computa-
+tionally, they are highly complex. In our work, we focus
+on the performance optimization of style-based generative
+models. We analyze the most computationally hard parts
+of StyleGAN2, and propose changes in the generator net-
+work to make it possible to deploy style-based generative
+networks in the edge devices. We introduce MobileStyle-
+GAN architecture, which has x3.5 fewer parameters and is
+x9.5 less computationally complex than StyleGAN2, while
+providing comparable quality."
+2021,ESCAPING THE BIG DATA PARADIGM WITH COMPACT TRANSFORMERS,"With the rise of Transformers as the standard for language processing, and their advancements in computer vision, along with their unprecedented size and amounts of
+training data, many have come to believe that they are not
+suitable for small sets of data. This trend leads to great
+concerns, including but not limited to: limited availability
+of data in certain scientific domains and the exclusion of
+those with limited resource from research in the field. In
+this paper, we dispel the myth that transformers are “data
+hungry” and therefore can only be applied to large sets of
+data. We show for the first time that with the right size and
+tokenization, transformers can perform head-to-head with
+state-of-the-art CNNs on small datasets. Our model eliminates the requirement for class token and positional embeddings through a novel sequence pooling strategy and the
+use of convolutions. We show that compared to CNNs, our
+compact transformers have fewer parameters and MACs,
+while obtaining similar accuracies. Our method is flexible
+in terms of model size, and can have as little as 0.28 M parameters and achieve reasonable results. It can reach an accuracy of 94.72% when training from scratch on CIFAR-10,
+which is comparable with modern CNN based approaches,
+and a significant improvement over previous Transformer
+based models. Our simple and compact design democratizes transformers by making them accessible to those
+equipped with basic computing resources and/or dealing
+with important small datasets."
+2021,SHAPE AND MATERIAL CAPTURE AT HOME,"In this paper, we present a technique for estimating the
+geometry and reflectance of objects using only a camera,
+flashlight, and optionally a tripod. We propose a simple
+data capture technique in which the user goes around the
+object, illuminating it with a flashlight and capturing only a
+few images.Our main technical contribution is the introduc-
+tion of a recursive neural architecture, which can predict
+geometry and reflectance at 2 k × 2 k resolution given an in-
+put image at 2 k ×2 k and estimated geometry and reflectance
+from the previous step at 2 k−1 × 2 k−1 . This recursive archi-
+tecture, termed RecNet, is trained with 256×256 resolution
+but can easily operate on 1024×1024 images during infer-
+ence. We show that our method produces more accurate
+surface normal and albedo, especially in regions of specu-
+lar highlights and cast shadows, compared to previous ap-
+proaches, given three or fewer input images. Our model
+and code is available at https://dlichy.github.io/
+ShapeAndMaterialAtHome/ ."
+2018,DEEP CONTEXTUALIZED WORD REPRESENTATIONS,"We introduce a new type of deep contextual-
+ized word representation that models both (1)
+complex characteristics of word use (e.g., syn-
+tax and semantics), and (2) how these uses
+vary across linguistic contexts (i.e., to model
+polysemy). Our word vectors are learned func-
+tions of the internal states of a deep bidirec-
+tional language model (biLM), which is pre-
+trained on a large text corpus. We show that
+these representations can be easily added to
+existing models and significantly improve the
+state of the art across six challenging NLP
+problems, including question answering, tex-
+tual entailment and sentiment analysis. We
+also present an analysis showing that exposing
+the deep internals of the pre-trained network is
+crucial, allowing downstream models to mix
+different types of semi-supervision signals."
+2017,PROBABILISTIC LATENT SEMANTIC INDEXING,"Probabilistic Latent Semantic Indexing is a novel approach
+to automated document indexing which is based on a sta-
+tistical latent class model for factor analysis of count data.
+Fitted from a training corpus of text documents by a gen-
+eralization of the Expectation Maximization algorithm, the
+utilized model is able to deal with domain{speci c synonymy
+as well as with polysemous words. In contrast to standard
+Latent Semantic Indexing (LSI) by Singular Value Decom-
+position, the probabilistic variant has a solid statistical foun-
+dation and de nes a proper generative data model. Retrieval
+experiments on a number of test collections indicate sub-
+stantial performance gains over direct term matching meth-
+ods as well as over LSI. In particular, the combination of
+models with di erent dimensionalities has proven to be ad-
+vantageous."
+1998,MACHINE TRANSLITERATION ,"It is challenging to translate names and technical terms across languages with different alphabets
+and sound inventories. These items are commonly transliterated, i.e., replaced with approxi-
+mate phonetic equivalents. For example, ""computer"" in English comes out as ""konpyuutaa"" in
+Japanese. Translating such items from Japanese back to English is even more challenging, and
+of practical interest, as transliterated items make up the bulk of text phrases not found in bilin-
+gual dictionaries. We describe and evaluate a method for performing backwards transliterations
+by machine. This method uses a generative model, incorporating several distinct stages in the
+transliteration process."
+2016,NEURAL MACHINE TRANSLATION BYJOINTLY LEARNING TO ALIGN AND TRANSLATE,"Neural machine translation is a recently proposed approach to machine transla-
+tion. Unlike the traditional statistical machine translation, the neural machine
+translation aims at building a single neural network that can be jointly tuned to
+maximize the translation performance. The models proposed recently for neu-
+ral machine translation often belong to a family of encoder–decoders and encode
+a source sentence into a fixed-length vector from which a decoder generates a
+translation. In this paper, we conjecture that the use of a fixed-length vector is a
+bottleneck in improving the performance of this basic encoder–decoder architec-
+ture, and propose to extend this by allowing a model to automatically (soft-)search
+for parts of a source sentence that are relevant to predicting a target word, without
+having to form these parts as a hard segment explicitly. With this new approach,
+we achieve a translation performance comparable to the existing state-of-the-art
+phrase-based system on the task of English-to-French translation. Furthermore,
+qualitative analysis reveals that the (soft-)alignments found by the model agree
+well with our intuition."
+2016,NEURAL MACHINE TRANSLATION OF RARE WORDS WITH SUB WORD UNITS,"Neural machine translation (NMT) mod-
+els typically operate with a fixed vocabu-
+lary, but translation is an open-vocabulary
+problem. Previous work addresses the
+translation of out-of-vocabulary words by
+backing off to a dictionary. In this pa-
+per, we introduce a simpler and more ef-
+fective approach, making the NMT model
+capable of open-vocabulary translation by
+encoding rare and unknown words as se-
+quences of subword units. This is based on
+the intuition that various word classes are
+translatable via smaller units than words,
+for instance names (via character copying
+or transliteration), compounds (via com-
+positional translation), and cognates and
+loanwords (via phonological and morpho-
+logical transformations). We discuss the
+suitability of different word segmentation
+techniques, including simple character n-
+gram models and a segmentation based on
+the byte pair encoding compression algo-
+rithm, and empirically show that subword
+models improve over a back-off dictionary
+baseline for the WMT 15 translation tasks
+English→German and English→Russian
+by up to 1.1 and 1.3 B LEU , respectively."
+2016,GOOGLE’S NEURAL MACHINE TRANSLATION SYSTEM: BRIDGING THE GAP BETWEEN HUMAN AND MACHINE TRANSLATION,"Neural Machine Translation (NMT) is an end-to-end learning approach for automated translation,
+with the potential to overcome many of the weaknesses of conventional phrase-based translation systems.
+Unfortunately, NMT systems are known to be computationally expensive both in training and in translation
+inference – sometimes prohibitively so in the case of very large data sets and large models. Several authors
+have also charged that NMT systems lack robustness, particularly when input sentences contain rare words.
+These issues have hindered NMT’s use in practical deployments and services, where both accuracy and
+speed are essential. In this work, we present GNMT, Google’s Neural Machine Translation system, which
+attempts to address many of these issues. Our model consists of a deep LSTM network with 8 encoder
+and 8 decoder layers using residual connections as well as attention connections from the decoder network
+to the encoder. To improve parallelism and therefore decrease training time, our attention mechanism
+connects the bottom layer of the decoder to the top layer of the encoder. To accelerate the final translation
+speed, we employ low-precision arithmetic during inference computations. To improve handling of rare
+words, we divide words into a limited set of common sub-word units (“wordpieces”) for both input and
+output. This method provides a good balance between the flexibility of “character”-delimited models and
+the efficiency of “word”-delimited models, naturally handles translation of rare words, and ultimately
+improves the overall accuracy of the system. Our beam search technique employs a length-normalization
+procedure and uses a coverage penalty, which encourages generation of an output sentence that is most
+likely to cover all the words in the source sentence. To directly optimize the translation BLEU scores,
+we consider refining the models by using reinforcement learning, but we found that the improvement
+in the BLEU scores did not reflect in the human evaluation. On the WMT’14 English-to-French and
+English-to-German benchmarks, GNMT achieves competitive results to state-of-the-art. Using a human
+side-by-side evaluation on a set of isolated simple sentences, it reduces translation errors by an average of
+60% compared to Google’s phrase-based production system."
+2016,DEEP REINFORCEMENT LEARNING FOR DIALOGUE GENERATION,"Recent neural models of dialogue generation
+offer great promise for generating responses
+for conversational agents, but tend to be short-
+sighted, predicting utterances one at a time
+while ignoring their influence on future out-
+comes. Modeling the future direction of a di-
+alogue is crucial to generating coherent, inter-
+esting dialogues, a need which led traditional
+NLP models of dialogue to draw on reinforce-
+ment learning. In this paper, we show how to
+integrate these goals, applying deep reinforce-
+ment learning to model future reward in chat-
+bot dialogue. The model simulates dialogues
+between two virtual agents, using policy gradi-
+ent methods to reward sequences that display
+three useful conversational properties: infor-
+mativity, coherence, and ease of answering (re-
+lated to forward-looking function). We evalu-
+ate our model on diversity, length as well as
+with human judges, showing that the proposed
+algorithm generates more interactive responses
+and manages to foster a more sustained conver-
+sation in dialogue simulation. This work marks
+a first step towards learning a neural conversa-
+tional model based on the long-term success of
+dialogues."
+2015,A NEURAL ATTENTION MODEL FOR ABSTR ACTIVE SENTENCE SUMMARIZATION,"Summarization based on text extraction is
+inherently limited, but generation-style ab-
+stractive methods have proven challeng-
+ing to build. In this work, we propose
+a fully data-driven approach to abstrac-
+tive sentence summarization. Our method
+utilizes a local attention-based model that
+generates each word of the summary con-
+ditioned on the input sentence. While the
+model is structurally simple, it can eas-
+ily be trained end-to-end and scales to a
+large amount of training data. The model
+shows significant performance gains on
+the DUC-2004 shared task compared with
+several strong baselines."
+2016,TOPIC BROWSING FOR RESEARCH PAPERS WITH HIERARCHICAL LATENT TREE ANALYSIS,"Academic researchers often need to face with a large collec-
+tion of research papers in the literature. This problem may
+be even worse for postgraduate students who are new to a
+field and may not know where to start. To address this prob-
+lem, we have developed an online catalog of research papers
+where the papers have been automatically categorized by a
+topic model. The catalog contains 7719 papers from the pro-
+ceedings of two artificial intelligence conferences from 2000
+to 2015. Rather than the commonly used Latent Dirichlet Al-
+location, we use a recently proposed method called hierar-
+chical latent tree analysis for topic modeling. The resulting
+topic model contains a hierarchy of topics so that users can
+browse the topics from the top level to the bottom level. The
+topic model contains a manageable number of general topics
+at the top level and allows thousands of fine-grained topics at
+the bottom level. It also can detect topics that have emerged
+recently."
