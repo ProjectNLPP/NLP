@@ -1,5 +1,8 @@
+
 From Google Colab :
-Url : 
+Url : https://colab.research.google.com/drive/1R6R-l5pYHrCmyib2f719DbAZ7akcGwcK
+
+
 
 Intro:-
 
@@ -16,6 +19,7 @@ Data Description:-
 Using Natural Language Processing (NLP) on NIPS papers to uncover the trendiest topics in machine learning research over the years.
 The a large number of research papers are published. Over 20 PDF files were automatically downloaded and processed to obtain a dataset on various machine learning techniques. These Research papers are stored in datasets/papers.csv. The CSV file contains information on the different Research papers  . These papers discuss a wide variety of topics in machine learning, from neural networks 
 Since there are a lot of sections and section specific data, PDF documents contain varied information .
+
 This could be data related but not restricted to:
 1-LOCAL RELATION NETWORKS FOR IMAGE RECOGNITION
 2-GENERAL PERCEPTION WITH ITERATIVE ATTENTION
@@ -23,6 +27,7 @@ This could be data related but not restricted to:
 4-SHAPE AND MATERIAL CAPTURE AT HOME
 5-DEEP CONTEXTUALIZED WORD REPRESENTATIONS
 6-NEURAL MACHINE TRANSLATION OF RARE WORDS WITH SUB WORD UNITS
+
 Python Libraries Used:-
 1-Pandas
 2-Numpy
@@ -45,16 +50,19 @@ Data Pre-processing:-
 Feature Creation — Text Length
 Feature Binning — Text length
 Transformation — Feature binning.
+
 Feature engineering:-
 Vectorizing the tokenised text before feeding to ML model.
 Tested and implemented following vectorisation algorithms.
 Count Vectorizer (Count)
 N-gram Vectorizer
 Tf-Idf Vectorizer (Feature weighing)
+
 Results:-
 we have developed an online catalog of research papers where the papers have been automatically categorized by a topic model. The catalog contains 20 papers from the proceedings of two artificial intelligence conferences from 2021 to 1992. Rather than the commonly used Latent Dirichlet Allocation, 
 we use a recently proposed method called 
 hierarchical latent tree analysis for topic modeling.
+
 Roadmap:- 
 In the future, 
 I think that it is possible to collect all research papers in 
@@ -63,6 +71,7 @@ search engine for them until they are found
 and the research papers will not be repeated
 Conclusion/Final Thoughts:-
 Text data, by its very nature is unstructured and highly complex to analyse.
+
 Resources:-
 https://medium.com/time-to-work/datacamp-project-the-hottest-topics-in-machine-learning-bcdea75abef3
 https://www.kaggle.com/arpitdw/the-hottest-topics-in-machine-learning?select=papers.csv
