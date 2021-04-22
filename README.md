@@ -1,6 +1,6 @@
 
 From Google Colab :
-Url : https://colab.research.google.com/drive/1R6R-l5pYHrCmyib2f719DbAZ7akcGwcK
+Url: https://colab.research.google.com/drive/1R6R-l5pYHrCmyib2f719DbAZ7akcGwcK
 
 
 
