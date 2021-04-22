@@ -1,5 +1,5 @@
 From Google Colab :
-URL : https://colab.research.google.com/github/Ayat30/Research_paper/blob/main/Reasearh_paper.ipynb
+Url : 
 
 Intro:-
 
