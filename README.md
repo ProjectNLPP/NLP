@@ -21,7 +21,7 @@ Using Natural Language Processing (NLP) on NIPS papers to uncover the trendiest 
 The a large number of research papers are published. Over 20 PDF files were automatically downloaded and processed to obtain a dataset on various machine learning techniques. These Research papers are stored in datasets/papers.csv. The CSV file contains information on the different Research papers  . These papers discuss a wide variety of topics in machine learning, from neural networks 
 Since there are a lot of sections and section specific data, PDF documents contain varied information .
 
-This could be data related but not restricted to:
+-This could be data related but not restricted to:
 
 1-LOCAL RELATION NETWORKS FOR IMAGE RECOGNITION
 2-GENERAL PERCEPTION WITH ITERATIVE ATTENTION
